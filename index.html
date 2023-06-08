@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>To-Do List</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>To-Do List</h1>
+
+  <form id="taskForm">
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <select id="prioritySelect">
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+    <button type="submit">Add Task</button>
+  </form>
+
+  <div id="taskList">
+    <h2>All Tasks</h2>
+    <div id="tasksContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

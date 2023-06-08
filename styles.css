@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #taskForm {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #taskForm input[type="text"], #taskForm select {
+    margin-right: 10px;
+  }
+  
+  #taskList {
+    margin-top: 20px;
+  }
+  
+  #taskList h2 {
+    margin-bottom: 10px;
+  }
+  
+  .task {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  .priority-high {
+    background-color: #FFCCCC;
+  }
+  
+  .priority-medium {
+    background-color: #FFFFCC;
+  }
+  
+  .priority-low {
+    background-color: #CCFFCC;
+  }
+  
